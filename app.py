@@ -326,7 +326,7 @@ def send_email(name, sender_email, message):
         smtp_server = "smtp.gmail.com"
         smtp_port = 587
         sender_email_address = "dharanimurugaraj@gmail.com"  # YOUR EMAIL
-        sender_email_password = "YOUR_16_CHARACTER_APP_PASSWORD" # YOUR APP PASSWORD
+        sender_email_password = "xjwobumtdbxsbkpu" # YOUR APP PASSWORD
 
         # The recipient email is also your email
         recipient_email = "dharanimurugaraj@gmail.com"
