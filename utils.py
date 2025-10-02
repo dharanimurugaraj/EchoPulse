@@ -18,10 +18,12 @@ def get_summary(text):
     chunks = text_splitter.create_documents([text])
 
     #Summarization
+    # Correct, stable model name
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
-        google_api_key=gemini_api_key
+    model="gemini-pro-latest",
+    google_api_key=gemini_api_key
     )
+
     
     chain = load_summarize_chain(
         llm, 
