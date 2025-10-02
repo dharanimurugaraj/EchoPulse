@@ -219,7 +219,7 @@ st.markdown('<section id="analyzer"></section>', unsafe_allow_html=True)
 st.title("Comment Analyzer")
 st.write("Select a platform to analyze comments and generate AI-powered summaries.")
 
-youtube_tab, twitter_tab = st.tabs(["YouTube", "Twitter"])
+youtube_tab, twitter_tab = st.tabs(["YouTube", "x"])
 
 with youtube_tab:
     st.header("Analyze YouTube Comments")
@@ -247,14 +247,14 @@ with youtube_tab:
             st.info("Submit a YouTube URL to display its summary here.")
 
 with twitter_tab:
-    st.header("Analyze Twitter Replies")
+    st.header("Analyze X Post Replies")
     
     left, right = st.columns(2)
     with left:
         with st.form("twitter_form"):
             tweet_url = st.text_input(
-                "Enter Tweet URL",
-                placeholder="Paste the tweet URL here...",
+                "Enter X post URL",
+                placeholder="Paste the X post URL here...",
             )
             max_results = st.slider("Number of Comments to fetch", 10, 100, 25)
             submit_tweet = st.form_submit_button("Get Summary")
@@ -273,9 +273,9 @@ with twitter_tab:
                     else:
                         st.error("No replies found or an error occurred.")
                 else:
-                    st.error("Invalid tweet URL. Please check and try again.")
+                    st.error("Invalid X post URL. Please check and try again.")
         else:
-            st.info("Submit a Twitter URL to display its summary here.")
+            st.info("Submit a X URL to display its summary here.")
 
 # About Us Section
 st.markdown('<section id="about-us"></section>', unsafe_allow_html=True)
@@ -297,7 +297,7 @@ st.markdown(
         <div class="card">
             <img src="data:image/png;base64,{img_base64}" alt="Efficient Data Analysis">
             <h3>Instant Comment Analysis</h3>
-            <p>EchoPulse instantly processes comments from YouTube and Twitter to reveal what your audience is truly thinking. Our advanced AI identifies trends and sentiments, giving you a clear view of user feedback without the manual effort.</p>
+            <p>EchoPulse instantly processes comments from YouTube and X to reveal what your audience is truly thinking. Our advanced AI identifies trends and sentiments, giving you a clear view of user feedback without the manual effort.</p>
         </div>
         <div class="card">
             <img src="data:image/jpeg;base64,{img2_base64}" alt="User-Friendly Design">
