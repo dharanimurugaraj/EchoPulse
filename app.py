@@ -207,7 +207,7 @@ st.markdown(
         </video>
         <div class="content">
             <h1>EchoPulse</h1>
-            <p>Transforming Digital Chatter into Actionable Insights.</p>
+            <p>Amplify Your Audience's Voice. Instant Insights from Social Comments.</p>
         </div>
     </div>
     """,
@@ -296,18 +296,18 @@ st.markdown(
     <div class="cards-container">
         <div class="card">
             <img src="data:image/png;base64,{img_base64}" alt="Efficient Data Analysis">
-            <h3>Efficient Data Analysis</h3>
-            <p>EchoPulse analyzes comments from YouTube and Twitter to extract valuable insights, identifying key trends, opinions, and sentiments in user comments.</p>
+            <h3>Instant Comment Analysis</h3>
+            <p>EchoPulse instantly processes comments from YouTube and Twitter to reveal what your audience is truly thinking. Our advanced AI identifies trends and sentiments, giving you a clear view of user feedback without the manual effort.</p>
         </div>
         <div class="card">
             <img src="data:image/jpeg;base64,{img2_base64}" alt="User-Friendly Design">
-            <h3>User-Friendly Design</h3>
-            <p>Our intuitive layout ensures a smooth and efficient experience, making powerful comment analysis accessible and straightforward for all users.</p>
+            <h3>Intuitive & Clean Interface</h3>
+            <p>We designed EchoPulse to be simple and powerful. The clean interface allows you to get the insights you need quickly, making complex data analysis accessible to everyone, from creators to marketers.</p>
         </div>
         <div class="card">
             <img src="data:image/png;base64,{img3_base64}" alt="AI-Powered Summaries">
-            <h3>AI-Powered Summaries</h3>
-            <p>Leverage cutting-edge AI to condense lengthy comment threads into clear, concise insights, saving you time and effort.</p>
+            <h3>Smart Summaries, Not Noise</h3>
+            <p>Stop scrolling through endless comments. EchoPulse uses cutting-edge AI to condense thousands of comments into concise, actionable summaries. Understand the key themes and overall sentiment in seconds.</p>
         </div>
     </div>
     """,
